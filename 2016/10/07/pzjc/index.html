@@ -1,12 +1,8 @@
 
 
-  
 
 
 
-
-
-  
 
 
 <!doctype html>
@@ -20,9 +16,10 @@
   
   
   
-    <meta name="description" content="这个博客主要是为了完成《软件工程》讨论课而搭建的，记录的都是日常的学习过程和问题，欢迎老师、同学的指导！">
+    <meta name="description" content="在Eclipse中配置Struts2为了配置Struts2，首先我明确了，配置其所需要的各个部分的文件，我的理解是，一个web.xml(配置监听器)、一个struts.xml(配置“action”)、导入必要的jar包，现将配置好的文件结构截图展示如下： 其中，web.xml与struts.xml具体内容将在以后篇幅具体展开！
+在Eclipse中配置MySQL通过对该实验的理解，我发现ecl...">
   
-  <title>归档: 2016 [ Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！ ]</title>
+  <title>我的Java+Struts2+MySQL配置 [ Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！ ]</title>
   
     <link rel="alternate" href="/atom.xml" title="Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！">
   
@@ -43,6 +40,15 @@
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/2016/10/07/软件工程/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        项目启动
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -82,7 +88,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">所有文章</a>
             
@@ -107,180 +113,68 @@
     <div id="content-inner">
       
       
-  <article>
-    
-
-  <div id="recent-posts">
-    <h1>归档
-    
-      <span class="posts-count">
-      共
-      3
+  <article id="post">
+    <h1>我的Java+Struts2+MySQL配置</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">撰写于 2016-10-07</span>
       
-        文章
+        <span id = "post-title-updated">修改于 2016-10-07</span>
+      
+      
+      <span id = "post-title-categories">分类
+      
+      
+        
+        
+        <a href="/categories/软件工程/">软件工程</a>
       
       </span>
-    
-    </h1>
-    
-    
+      
+      
+      <span id = "post-title-tags">
+      标签
       
       
         
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-    
-    
-      
-      
         
-        <h3 class="archive-year-title">2016
-        
-          <span class="posts-count">
-          共
-          3
-          
-            文章
-          
-          </span>
-        
-        </h3>
+        <a href="/tags/软件工程/">软件工程</a>
       
-      <div class="post-title-item">
-  
-  <a href="/2016/09/09/xuanti/">
-  
-    我们本次数学建模的选题
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-9</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
+      </span>
       
-      
-      <a href="/categories/数学建模/">数学建模</a>
+    </p>
     
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/09/xiaoqu/">
-  
-    关于“开放式小区”的六大疑问
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-9</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/05/随笔/">
-  
-    随笔启动
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-5</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/随笔/">随笔</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/随笔/">随笔</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+    <h2 id="在Eclipse中配置Struts2"><a href="#在Eclipse中配置Struts2" class="headerlink" title="在Eclipse中配置Struts2"></a>在Eclipse中配置Struts2</h2><p>为了配置Struts2，首先我明确了，配置其所需要的各个部分的文件，我的理解是，一个web.xml(配置监听器)、一个struts.xml(配置“action”)、导入必要的jar包，现将配置好的文件结构截图展示如下：<br> <img src="./images/1475839392590.jpg" alt="enter description here" title="1475839392590.jpg"><br>其中，web.xml与struts.xml具体内容将在以后篇幅具体展开！</p>
+<h2 id="在Eclipse中配置MySQL"><a href="#在Eclipse中配置MySQL" class="headerlink" title="在Eclipse中配置MySQL"></a>在Eclipse中配置MySQL</h2><p>通过对该实验的理解，我发现eclipse配置数据库，并不是针对某一个项目，而是针对整个集成开发环境，所以，相应地配置MySQL也是整个IDE的事，在软件的总配置中，如下图所示位置：<br><img src="./images/1475839452021.jpg" alt="enter description here" title="1475839452021.jpg"><br>此为我成功地加入了MySQL之后的界面，如果没有加入，需要点击右侧的“Add…”进行添加，如下图：<br> <img src="./images/1475839481310.jpg" alt="enter description here" title="1475839481310.jpg"><br>由于我添加的是最新的MySQL 5.1，所以在具体的项目中，我也需要导入相应版本的jar包，用来加载MySQL驱动：<br> <img src="./images/1475839512788.jpg" alt="enter description here" title="1475839512788.jpg"><br>添加的具体方法是将本地的此jar文件拖动到“WebContent-&gt;WEB-INF-&gt;lib”文件夹下，然后右键，将其添加到“Build Path”。</p>
+<h2 id="在Eclipse中配置Tomcat"><a href="#在Eclipse中配置Tomcat" class="headerlink" title="在Eclipse中配置Tomcat"></a>在Eclipse中配置Tomcat</h2><p>Tomcat是一个开源的web应用服务器，与MySQL一样，它也是对整个集成开发环境而言的，所以关于其的配置，也在eclipse的设置中，已经配置好的环境如下：<br> <img src="./images/1475839536015.jpg" alt="enter description here" title="1475839536015.jpg"><br>如果是第一次配置，仍然需要点击右侧的“Add…”来选择你要安装的版本：<br> <img src="./images/1475839554213.jpg" alt="enter description here" title="1475839554213.jpg"><br>再下一步就是要选择安装的tomcat的地址与安装名称了：<br> <img src="./images/1475839572543.jpg" alt="enter description here" title="1475839572543.jpg"><br>点击结束，就会自动安装好，每次对着web项目点击右键，在“Run As”选项下，第一个，就是：Run On Server，即在tomcat上运行该程序。<br>至此，开发环境已经完全搭建好了，接下来就是实际的开发过程了!</p>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <div class="random-toc">
+    <h2>目录</h2>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#在Eclipse中配置Struts2"><span class="toc-text">在Eclipse中配置Struts2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在Eclipse中配置MySQL"><span class="toc-text">在Eclipse中配置MySQL</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#在Eclipse中配置Tomcat"><span class="toc-text">在Eclipse中配置Tomcat</span></a></li></ol>
+  </div>
+</div>
 
+  
+<nav id="pagination">
+  
+
+  
+
+  
+    <a href="/2016/10/07/软件工程/" class="next">下一篇 项目启动 &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
+
+      
+      <div class="ds-thread" data-thread-key="2016/10/07/pzjc/" data-title="我的Java+Struts2+MySQL配置" data-url="http://kuangmeng.net/2016/10/07/pzjc/"></div>
       
       
       
@@ -297,6 +191,18 @@
 </div>
 
 </div>
+
+  <script type="text/javascript">
+var duoshuoQuery = {short_name:"kuangmengmeng"};
+(function() {
+  var ds = document.createElement('script');
+  ds.type = 'text/javascript';ds.async = true;
+  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  ds.charset = 'UTF-8';
+  (document.getElementsByTagName('head')[0] 
+   || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
 
 
 
@@ -480,6 +386,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "D7CCC8";
