@@ -1,7 +1,5 @@
 
 
-  
-
 
 
 
@@ -18,9 +16,12 @@
   
   
   
-    <meta name="description" content="这个博客主要是为了完成《软件工程》讨论课而搭建的，记录的都是日常的学习过程和问题，欢迎老师、同学的指导！">
+    <meta name="description" content="Ruby据说是一个比Python还要简洁还要快速的编程语言 ：）
+好吧，这里并不是要挑起编程语言之间的战争，每个语言都有自己适应的场景，作为程序员应该知道在什么样的应用场景之下，用哪种的语言来实现业务逻辑，才是最重要的。
+这次，我们使用Ruby来获取网页上的e-mail地址。
+不知道各位有没有在成堆的垃圾邮件中，寻找某宝密码重置的邮件，简直是一场杯具。。。。我们总是小心翼翼的保护着我们的邮箱...">
   
-  <title>归档 [ Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！ ]</title>
+  <title>E-mail小爬虫 [ Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！ ]</title>
   
     <link rel="alternate" href="/atom.xml" title="Welcome to Meng's Blog! | 欢迎来到匡盟盟的博客！">
   
@@ -41,6 +42,15 @@
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/2016/10/07/pzjc/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        我的Java+Struts2+MySQL配置
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -80,7 +90,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">所有文章</a>
             
@@ -105,495 +115,111 @@
     <div id="content-inner">
       
       
-  <article>
-    
-
-  <div id="recent-posts">
-    <h1>归档
-    
-      <span class="posts-count">
-      共
-      10
+  <article id="post">
+    <h1>E-mail小爬虫</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">撰写于 2016-10-10</span>
       
-        文章
+        <span id = "post-title-updated">修改于 2016-10-10</span>
+      
+      
+      <span id = "post-title-categories">分类
+      
+      
+        
+        
+        <a href="/categories/随笔/">随笔</a>
       
       </span>
-    
-    </h1>
-    
-    
+      
+      
+      <span id = "post-title-tags">
+      标签
       
       
         
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-      
-      
-      
-    
-    
-    
-      
-      
         
-        <h3 class="archive-year-title">2016
-        
-          <span class="posts-count">
-          共
-          10
-          
-            文章
-          
-          </span>
-        
-        </h3>
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/10/10/ruby/">
-  
-    E-mail小爬虫
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">10-10</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/随笔/">随笔</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/随笔/">随笔</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/10/07/pzjc/">
-  
-    我的Java+Struts2+MySQL配置
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">10-7</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/10/07/软件工程/">
-  
-    项目启动
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">10-7</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/10/06/lab2secret/">
-  
-    关于“网络图书馆”的秘密
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">10-6</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/10/04/md/">
-  
-    MarkDown语法小结
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">10-4</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/随笔/">随笔</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/随笔/">随笔</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/28/lab1-1/">
-  
-    实验一要点回顾
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-28</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/18/lab1/">
-  
-    笑对Lab1
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-18</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/软件工程/">软件工程</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/12/jianmo/">
-  
-    数学建模——我们的论文
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-12</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/12/thirdday/">
-  
-    第三天
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-12</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/2016/09/10/secondday/">
-  
-    第二天
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">9-10</span>
-    
-    <span id = "post-title-categories">分类
-    
-    
-      
-      
-      <a href="/categories/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-    <span id = "post-title-tags">
-    标签
-    
-    
-      
-      
-      <a href="/tags/数学建模/">数学建模</a>
-    
-    </span>
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+        <a href="/tags/随笔/">随笔</a>
+      
+      </span>
+      
+    </p>
+    
+    <p>Ruby据说是一个比Python还要简洁还要快速的编程语言 ：）</p>
+<p>好吧，这里并不是要挑起编程语言之间的战争，每个语言都有自己适应的场景，作为程序员应该知道在什么样的应用场景之下，用哪种的语言来实现业务逻辑，才是最重要的。</p>
+<p>这次，我们使用Ruby来获取网页上的e-mail地址。</p>
+<p>不知道各位有没有在成堆的垃圾邮件中，寻找某宝密码重置的邮件，简直是一场杯具。。。。我们总是小心翼翼的保护着我们的邮箱，但还是被别有用心的人知道；e-mail爬虫就是这些人的工具之一，它可以在某个网页上过滤出一个个的e-mail，然后发送垃圾邮件。</p>
+<p>“加密”你的email地址，防止爬虫收集</p>
+<p>当然，我们抱着学习的心态，来了解它的基本结构，揭开它神秘的面纱。</p>
+<p>代码下载：</p>
+<p>git clone <a href="http://git.shiyanlou.com/shiyanlou/email_spider" target="_blank" rel="external">http://git.shiyanlou.com/shiyanlou/email_spider</a><br>一、准备工作</p>
+<p>实验楼已经提供了Ruby运行环境，但是，还是需要我们安装一些插件：</p>
+<p>将gem下载源换为国内源</p>
+<p>请确保只有 ruby.taobao.org</p>
+<p>$ gem sources –remove <a href="http://rubygems.org/" target="_blank" rel="external">http://rubygems.org/</a><br>$ gem sources -a <a href="http://mirrors.aliyuncs.com/rubygems/" target="_blank" rel="external">http://mirrors.aliyuncs.com/rubygems/</a><br>$ gem sources -l</p>
+<p><strong>CURRENT SOURCES </strong></p>
+<p><a href="http://mirrors.aliyuncs.com/rubygems/" target="_blank" rel="external">http://mirrors.aliyuncs.com/rubygems/</a><br>安装Ruby爬虫库 anemone</p>
+<p>$ sudo apt-get update<br>$ sudo apt-get install ruby1.9.1-dev<br>$ sudo apt-get install libsqlite3-dev<br>$ sudo gem install anemone<br>查看对应的数据库支持</p>
+<p>Ruby数据库支持</p>
+<p>sudo gem install data_mapper<br>sudo gem install dm-sqlite-adapter<br>二、数据库设计</p>
+<p>我们使用sqlite3来放置我们扒下来的数据：</p>
+<p>Site：存储爬行过的网站</p>
+<p>Page：存储爬行过的存在email地址的页面的URL</p>
+<p>Address：email地址</p>
+<p>我们只讲解其中一个表的model，其他更深入的请看：</p>
+<p>data_mapper property详解</p>
+<p>源文件data.rb：</p>
+<p>ruby-email-1.png</p>
+<p>Page模型需要include模块DataMapper::Resource，引入相应的方法，其中就包括了property，belongs_to，has n，validates_presence_of，这些我们马上需要用到的方法。</p>
+<p>property：定义了对象的属性（表的字段类型），Serial是自增ID，并且是主键。</p>
+<p>belongs_to： 定义了一对多的关系，一个网站可能包含了多个网页URL</p>
+<p>has n：定义多对多的关系，一个网页上可能包含多个email地址，一个email可能同时存在多个网页上。</p>
+<p>validates_presence_of：检查 url是否存在。</p>
+<p>data_mapper validates详解</p>
+<p>三、爬虫代码</p>
+<p>首先，我们需要引入uri 和 anemone包，其次还需要刚才定义的数据库的model</p>
+<p>require ‘uri’<br>require ‘anemone’<br>require_relative ‘data’<br>data是对data.rb文件的引用。</p>
+<p>crawl.rb</p>
+<p>ruby-email-2.png</p>
+<p>ARGV：获取命令行参数</p>
+<p>ruby crawl.rb <a href="http://www.test.test" target="_blank" rel="external">http://www.test.test</a><br>ARGV是Ruby的数组，所以我们用循环来处理它，因为我可以输入不只一个URL，如果，我们使用多线程的话，这样就可以同一时间处理多个URL，事半功倍。</p>
+<p>然后马上使用URI()来处理传入的URL，结果返回给uri，下一步就把这个结果存入数据库中，uri.host网站的域名，和当前时间(这里使用的是内置模块Time) URI模块，官方文档，英文</p>
+<p>接下来的事情就很写意了，我们不需要自己去做很多的比如什么广度和深度算法的设计，我们只需要给它一个入口的URL，它会自动的去爬行，根本停不下来啊！</p>
+<p>使用模块Anemone的方法crawl创建一个新的爬虫，参数就传一个我们想爬行的URL就OK了！</p>
+<p>Storage.PStore用来缓存新扒下来的网页代码，on_every_page处理每个页面，正则去匹配email，该页面的所有email会被包装在一个数组里面，然后循环这个数组并将结果存放数据库。</p>
+<p>Anemone爬虫模块</p>
+<p>if判断将会去查询address表，如果这个数据存在就更新，不存在则创建。</p>
+<p>Datamapper更删查改详解</p>
+<p>最后，将得到的E-mail地址输出到屏幕，又接着下一次循环，你要是不想等了，直接Ctrl+c吧 ：）</p>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <div class="random-toc">
+    <h2>目录</h2>
+    
+  </div>
+</div>
 
+  
+<nav id="pagination">
+  
+
+  
+
+  
+    <a href="/2016/10/07/pzjc/" class="next">下一篇 我的Java+Struts2+MySQL配置 &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
+
+      
+      <div class="ds-thread" data-thread-key="2016/10/10/ruby/" data-title="E-mail小爬虫" data-url="http://kuangmeng.net/2016/10/10/ruby/"></div>
       
       
       
@@ -610,6 +236,18 @@
 </div>
 
 </div>
+
+  <script type="text/javascript">
+var duoshuoQuery = {short_name:"kuangmengmeng"};
+(function() {
+  var ds = document.createElement('script');
+  ds.type = 'text/javascript';ds.async = true;
+  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  ds.charset = 'UTF-8';
+  (document.getElementsByTagName('head')[0] 
+   || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
 
 
 
@@ -793,6 +431,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "D7CCC8";
